@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Nate Fulmer</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+    </head>
+    <body>
+        <div class="jumbotron text-center bg-info">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-6">
+              <img src="imgs/cropped_pic.jpg"alt="me in one of my banana themed shirts" class="img-fluid p-2">
+            </div>
+            <div class="col-sm-6">
+              <div class="bg-light">
+                <h1>Howdy there!</h1>
+              </div>
+              <div class="bg-warning">
+                <p class="h4">
+                  I'm Nate: aspiring computer scientist, voracious reader, and mango enthusiast.
+                </p>
+
+                <p>
+                  Right now, I'm finishing up my computer science degree at UNC-Chapel Hill 
+                  with a minor in statistics (expected graduation May 2022). In my freetime, I 
+                  do research at UNC's Neuro Image Research and Analysis Laboratories, run, and 
+                  play a lot of Candy Land with my younger siblings.
+                </p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+              <h2 class="text-center"><strong>Research</strong></h2>
+          </div>
+          <div class="col-sm-6">
+              <h2 class="text-center"><strong>Projects</strong></h2>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-sm-6">
+            <div class="card">
+              <span class="border border-success">
+                <div class="card-body">
+                  <div class="bg-success">
+                    <h4 class="card-title text-center text-white"><strong>Medical Imaging Conference Paper</strong></h4>
+                  </div>
+                    <p class="card-text">
+                      In February 2021, I got the opportunity to present a paper on the relationship 
+                      between extra-axial cerebrospinal fluid and a diagnosis of Alzheimer's disease 
+                      with my research partner as part of my work at <a href= "https://www.med.unc.edu/psych/research/niral/" class="link-dark" target="_blank">NIRAL</a>.
+                      You can find the paper and presentation in the SPIE Medical Imaging catalogs. I did the majority of the statistical analysis in R with some help from bash scripts for the initial processing of the data.
+                    </p>
+                  <div class="text-center">
+                    <a href="http://dx.doi.org/10.1117/12.2580827" class="btn btn-success" target="_blank"> Click here for the paper!</a>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <span class="border border-danger">
+                <div class="card-body">
+                  <div class="bg-danger">
+                    <h4 class="card-title text-center text-white"><strong>Night In Web App</strong></h4>
+                  </div>
+                  <p class="card-text">
+                    This cute little NodeJS based app leverages two publicly available APIs to generate 
+                    food and movie recommendations for a user. The SQL backend supports CRUD operations
+                    to keep track of user profiles and their history of likes.
+                  </p>
+                  <div class="text-center">
+                    <a href="https://niapp-426.herokuapp.com/" class="btn btn-danger" target="_blank">Night In</a>
+                    <a href="https://github.com/nfulmer/nightin" class="btn btn-danger" target="_blank">Github</a>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-sm-6">
+            <div class="card">
+              <span class="border border-primary">
+                <div class="card-body">
+                  <div class="bg-primary">
+                    <h4 class="card-title text-center text-white"><strong>Machine Learning with Infant Data</strong></h4>
+                  </div>
+                  <p class="card-text">
+                    For our intro to machine learning class, my partner and I (who both do 
+                    research at NIRAL together) used principal component analysis to reduce the dimensionality 
+                    of infant data to identify trends in those with abnormal development. We used the sci-kit learn package, as well as pandas in a python-based colab notebook.
+                  </p>
+                  <div class="text-center">
+                    <a href="imgs/COMP562_EACSF_FINAL.pdf" class="btn btn-primary" target="_blank">Write Up</a>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <span class="border border-secondary">
+                <div class="card-body">
+                  <div class="bg-secondary">
+                    <h4 class="card-title text-center text-white"><strong>MiniJava Compiler</strong></h4>
+                  </div>
+                  <p class="card-text">As a part of my compilers class, I wrote a compiler in Java for a subset of the Java language (aka MiniJava). Along with the base project, I added extra features like support for Strings and static field initialization. I used Eclipse as my
+                    IDE and incorporated automated testing procedures.
+                  </p>
+                  <div class="text-center">
+                    <a href="https://github.com/nfulmer/miniJavaCompiler" class="btn btn-secondary" target="_blank">Github Code</a>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+
+          <!-- <img src="imgs/band.png" alt="just jammin'" width="75%" height="75%" class="p-3 mx-auto d-block"> -->
+        
+        <script src="script.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
+</html>
